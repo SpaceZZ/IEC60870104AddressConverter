@@ -1,8 +1,8 @@
-# IEC60870104AddressConverter
+# IEC 60870-5-104 Address Converter
 
 Simple GUI engineering tool to calculate from structured to unstructured **IEC 60870-5-104** addresses and vice versa, i.e. **31.0.1.10.2.4** into **31.0.1.655876**
 
-I have found that a lot of vendors use one of another and it takes a lot of time to calculate them by hand (and I often forget the formula).
+I have found that a lot of SCADA vendors use one of another and it takes a lot of time to calculate them by hand (and I often forget the formula).
 
 It also has a list with Telegram ASDU Types.
 
@@ -18,3 +18,5 @@ There is a .spec Pyinstaller file attached to create a GUI. Use it as:
 ```
 
 Built program is available in the `dist` folder.
+
+GUI is built on *PySimpleGUI* framework.
