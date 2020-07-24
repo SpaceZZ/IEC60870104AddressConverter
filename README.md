@@ -6,6 +6,10 @@ I have found that a lot of SCADA vendors use one of another and it takes a lot o
 
 It also has a list with Telegram ASDU Types.
 
+<img src="https://i.ibb.co/1qwZMg0/converter.jpg">
+
+<img src="https://i.ibb.co/YTrXQKN/telegrams.jpg">
+
 If you want to build it, you need to download requirements:
 
 ```
@@ -16,7 +20,6 @@ There is a .spec Pyinstaller file attached to create a GUI. Use it as:
 ```
 # pyinstaller main.spec
 ```
-
 Built program is available in the `dist` folder.
 
 GUI is built on *PySimpleGUI* framework.
